@@ -15,4 +15,6 @@ export PS1="\[\033[38;5;12m\][\[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\
 [ -e "$DIR_COLORS" ] || DIR_COLORS=""
 eval "`dircolors -b $DIR_COLORS`"
 
-alias t20="ssh ${USER}@henriknh.se"
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
