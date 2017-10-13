@@ -169,4 +169,6 @@ bar {
 
 new_window 1pixel
 
-exec_always --no-startup-id feh --randomize --bg-fill ~/.config/wallpaper/*
+exec_always --no-startup-id feh --randomize --bg-fill ~/.config/wallpaper/* &
+exec_always --no-startup-id xset -b &
+exec_always --no-startup-id xbindkeys &
