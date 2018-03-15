@@ -2,4 +2,4 @@
 
 ## Dependencies
  * rofi
- * ttf-font-awesome
+ * otf-font-awesome-4

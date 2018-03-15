@@ -1,0 +1,516 @@
+{
+   "Actions": {
+      "message": "Ações"
+   },
+   "DLG_BTN_APPLY": {
+      "message": "Aplicar"
+   },
+   "DLG_BTN_CANCEL": {
+      "message": "Cancelar"
+   },
+   "DLG_BTN_CLOSE": {
+      "message": "Fechar"
+   },
+   "DLG_BTN_NO": {
+      "message": "Não"
+   },
+   "DLG_BTN_OK": {
+      "message": "OK"
+   },
+   "DLG_BTN_YES": {
+      "message": "Sim"
+   },
+   "DLG_RSSDOWNLOADER_24": {
+      "message": "Download"
+   },
+   "DLG_SETTINGS_4_CONN_16": {
+      "message": "Usuário"
+   },
+   "DLG_SETTINGS_4_CONN_18": {
+      "message": "Senha"
+   },
+   "FI_COL_NAME": {
+      "message": "Nome"
+   },
+   "FI_COL_PRIO": {
+      "message": "Prioridade"
+   },
+   "FI_COL_SIZE": {
+      "message": "Tamanho"
+   },
+   "MENU_UNLIMITED": {
+      "message": "Ilimitado"
+   },
+   "MF_DONT": {
+      "message": "Não baixar"
+   },
+   "MF_HIGH": {
+      "message": "Alta",
+      "modifed": 1
+   },
+   "MF_LOW": {
+      "message": "Baixa",
+      "modifed": 1
+   },
+   "MF_NORMAL": {
+      "message": "Normal",
+      "modifed": 1
+   },
+   "ML_DELETE_DATA": {
+      "message": "Excluir Dados"
+   },
+   "ML_DELETE_DATATORRENT": {
+      "message": "Excluir .torrent + Dados"
+   },
+   "ML_DELETE_TORRENT": {
+      "message": "Excluir .torrent"
+   },
+   "ML_FORCE_RECHECK": {
+      "message": "Forçar Re-checagem"
+   },
+   "ML_FORCE_START": {
+      "message": "Forçar Ínicio"
+   },
+   "ML_PAUSE": {
+      "message": "Pausar"
+   },
+   "ML_REMOVE": {
+      "message": "Remover"
+   },
+   "ML_REMOVE_AND": {
+      "message": "Remover e"
+   },
+   "ML_START": {
+      "message": "Iniciar"
+   },
+   "ML_STOP": {
+      "message": "Parar"
+   },
+   "MM_FILE_ADD_URL": {
+      "message": "Adicionar Torrent da URL"
+   },
+   "OV_CAT_ACTIVE": {
+      "message": "Ativo"
+   },
+   "OV_CAT_ALL": {
+      "message": "Todos"
+   },
+   "OV_CAT_COMPL": {
+      "message": "Concluído"
+   },
+   "OV_CAT_DL": {
+      "message": "Baixando"
+   },
+   "OV_CAT_INACTIVE": {
+      "message": "Invativo"
+   },
+   "OV_CAT_NOLABEL": {
+      "message": "Sem categoria"
+   },
+   "OV_COL_AVAIL": {
+      "message": "Disponibilidade"
+   },
+   "OV_COL_AVAIL_SHORT": {
+      "message": "Disp.",
+      "originalKey": "OV_COL_AVAIL"
+   },
+   "OV_COL_DATE_ADDED": {
+      "message": "Adicionado"
+   },
+   "OV_COL_DATE_COMPLETED": {
+      "message": "Completed On"
+   },
+   "OV_COL_DONE": {
+      "message": "%"
+   },
+   "OV_COL_DOWNLOADED": {
+      "message": "Baixado"
+   },
+   "OV_COL_DOWNSPD": {
+      "message": "Veloc. Down"
+   },
+   "OV_COL_ETA": {
+      "message": "TED"
+   },
+   "OV_COL_LABEL": {
+      "message": "Categoria"
+   },
+   "OV_COL_NAME": {
+      "message": "Nome"
+   },
+   "OV_COL_ORDER": {
+      "message": "Na Fila",
+      "modifed": 1,
+      "originalKey": "OV_FL_QUEUED"
+   },
+   "OV_COL_ORDER_SHORT": {
+      "message": "N.",
+      "originalKey": "OV_COL_ORDER"
+   },
+   "OV_COL_PEERS": {
+      "message": "Peers"
+   },
+   "OV_COL_REMAINING": {
+      "message": "Restando"
+   },
+   "OV_COL_SEEDS": {
+      "message": "Seeds"
+   },
+   "OV_COL_SEEDS_PEERS": {
+      "message": "Seeds/Peers"
+   },
+   "OV_COL_SEEDS_PEERS_SHORT": {
+      "message": "S/P",
+      "originalKey": "OV_COL_SEEDS_PEERS"
+   },
+   "OV_COL_SHARED": {
+      "message": "Ratio"
+   },
+   "OV_COL_SIZE": {
+      "message": "Tamanho"
+   },
+   "OV_COL_STATUS": {
+      "message": "Status"
+   },
+   "OV_COL_UPPED": {
+      "message": "Enviado"
+   },
+   "OV_COL_UPSPD": {
+      "message": "Veloc. Up"
+   },
+   "OV_CONFIRM_DELETE_MULTIPLE": {
+      "message": "Tem certeza que deseja excluir os %d torrents selecionados?"
+   },
+   "OV_CONFIRM_DELETE_ONE": {
+      "message": "Tem certeza que deseja excluir o torrent selecionado?"
+   },
+   "OV_FL_CHECKED": {
+      "message": "Verificado",
+      "modifed": 1
+   },
+   "OV_FL_DOWNLOADING": {
+      "message": "Baixando"
+   },
+   "OV_FL_ERROR": {
+      "message": "Erro",
+      "modifed": 1
+   },
+   "OV_FL_FINISHED": {
+      "message": "Finalizado"
+   },
+   "OV_FL_PAUSED": {
+      "message": "Pausado"
+   },
+   "OV_FL_QUEUED": {
+      "message": "Na Fila"
+   },
+   "OV_FL_QUEUED_SEED": {
+      "message": "Envios na Fila"
+   },
+   "OV_FL_SEEDING": {
+      "message": "Enviando"
+   },
+   "OV_FL_STOPPED": {
+      "message": "Parado"
+   },
+   "OV_NEWLABEL_CAPTION": {
+      "message": "Informe a categoria",
+      "modifed": 1
+   },
+   "OV_NEW_LABEL": {
+      "message": "Nova Categoria..."
+   },
+   "OV_REMOVE_LABEL": {
+      "message": "Remover categoria"
+   },
+   "Open_file": {
+      "message": "Abra o arquivo",
+      "originalKey": "Open file"
+   },
+   "PRS_COL_IP": {
+      "message": "IP"
+   },
+   "PRS_COL_PORT": {
+      "message": "Porta"
+   },
+   "Paste_a_torrent_URL": {
+      "message": "Cole uma URL de torrent",
+      "modifed": 1,
+      "originalKey": "Paste a torrent or feed URL"
+   },
+   "STM_TORRENTS_PAUSEALL": {
+      "message": "Pausar todos os torrents"
+   },
+   "STM_TORRENTS_RESUMEALL": {
+      "message": "Reiniciar todos os torrents"
+   },
+   "ST_CAPT_ADVANCED": {
+      "message": "Avançado"
+   },
+   "ST_CAPT_FOLDER": {
+      "message": "Diretórios",
+      "modifed": 1
+   },
+   "ST_CAPT_WEBUI": {
+      "message": "Web UI"
+   },
+   "add": {
+      "message": "Adicionar"
+   },
+   "addInTorrentClient": {
+      "message": "Adicionar no Transmission"
+   },
+   "addItem": {
+      "message": "Adicionar Item"
+   },
+   "altSpeedEnable": {
+      "message": "Temporary Speed Limits"
+   },
+   "appDesc": {
+      "message": "Extensão adicionar Transmission web GUI no seu navegador"
+   },
+   "available": {
+      "message": "Acessível",
+      "originalKey": "STATUS_REMOTE_01"
+   },
+   "backgroundUpdateInterval": {
+      "message": "Fundo intervalo atualizar a lista de torrents"
+   },
+   "backup": {
+      "message": "Backup"
+   },
+   "badgeColor": {
+      "message": "Notificação de cor"
+   },
+   "checkSettings": {
+      "message": "Сheck as configurações"
+   },
+   "copy": {
+      "message": "Copiar"
+   },
+   "currentDirectory": {
+      "message": "Diretório atual"
+   },
+   "defaultPath": {
+      "message": "Diretório padrão",
+      "modifed": 1,
+      "originalKey": "DLG_SETTINGS_3_PATHS_10"
+   },
+   "deleteSelected": {
+      "message": "Excluir selecionado",
+      "modifed": 1,
+      "originalKey": "DLG_RSSDOWNLOADER_35"
+   },
+   "dirList": {
+      "message": "Lista de diretórios"
+   },
+   "displayActiveTorrentCountIcon": {
+      "message": "Exibe o número de torrents download no ícone da extensão"
+   },
+   "down": {
+      "message": "Descer",
+      "modifed": 1,
+      "originalKey": "ML_QUEUEDOWN"
+   },
+   "enterNewDirPath": {
+      "message": "Digite o caminho para o novo diretório"
+   },
+   "enterNewLabel": {
+      "message": "Informe a nova categoria para os torrent selecionado",
+      "modifed": 1,
+      "originalKey": "OV_NEWLABEL_TEXT"
+   },
+   "extra": {
+      "message": "Extra"
+   },
+   "fileSizeError": {
+      "message": "Arquivo é muito grande"
+   },
+   "fixCirilicIf": {
+      "message": "Fix Cyrillic if..."
+   },
+   "fixCirilicTitle": {
+      "message": "Incorrectly displays the names of the torrents"
+   },
+   "fixCirilicTorrentPath": {
+      "message": "Incorrectly sets the directory to the newly added torrent"
+   },
+   "folderContextMenu": {
+      "message": "Mostrar lista de diretórios"
+   },
+   "freeSpace": {
+      "message": "Espaço livre"
+   },
+   "fullPath": {
+      "message": "Directory (full path)"
+   },
+   "guiPath": {
+      "message": "WebUI path"
+   },
+   "hideFnishStatusItem": {
+      "message": "Esconder torrents com estatuto \"Finalizado\""
+   },
+   "hideSeedStatusItem": {
+      "message": "Esconder torrents com status \"Enviando\""
+   },
+   "labelContextMenu": {
+      "message": "Mostrar lista de categoria"
+   },
+   "labelList": {
+      "message": "Lista de categoria"
+   },
+   "lang": {
+      "message": "pt-BR"
+   },
+   "magnetUri": {
+      "message": "Magnet-URI"
+   },
+   "move": {
+      "message": "Move"
+   },
+   "moveNewPath": {
+      "message": "Enter new path"
+   },
+   "ms": {
+      "message": "ms"
+   },
+   "notificationTimeout": {
+      "message": "Ocultar notificação após"
+   },
+   "openInTab": {
+      "message": "Abrir em guia"
+   },
+   "optClearCloudStorage": {
+      "message": "Remover todas as configurações em nuvem"
+   },
+   "optClient": {
+      "message": "Transmission"
+   },
+   "optCtx": {
+      "message": "Menu de contexto"
+   },
+   "optGetFromCloud": {
+      "message": "Obter definições de cloud"
+   },
+   "optMain": {
+      "message": "Principal"
+   },
+   "optNotify": {
+      "message": "Notificar"
+   },
+   "optSaveInCloud": {
+      "message": "Salvo em nuvem"
+   },
+   "path": {
+      "message": "Caminho",
+      "note": "URL path"
+   },
+   "popupHeight": {
+      "message": "Janela popup Altura"
+   },
+   "popupUpdateInterval": {
+      "message": "Intervalo de atualização da lista de torrents"
+   },
+   "px": {
+      "message": "px"
+   },
+   "queueBottom": {
+      "message": "Bottom"
+   },
+   "queueTop": {
+      "message": "Top"
+   },
+   "reannounce": {
+      "message": "Ask more peers"
+   },
+   "refresh": {
+      "message": "Refrescar"
+   },
+   "rename": {
+      "message": "Rename"
+   },
+   "renameText": {
+      "message": "Enter file name"
+   },
+   "requireAuthentication": {
+      "message": "Authentication is required"
+   },
+   "restore": {
+      "message": "Restaurar"
+   },
+   "resume": {
+      "message": "Reiniciar",
+      "modifed": 1,
+      "originalKey": "STM_TORRENTS_RESUMEALL"
+   },
+   "selectAll": {
+      "message": "Selecionar tudo"
+   },
+   "selectDownloadCategoryOnAddItemFromContextMenu": {
+      "message": "Abra a categoria \"Baixando\" ao adicionar uma torrente"
+   },
+   "shortName": {
+      "message": "Nome curto"
+   },
+   "showDefaultFolderContextMenuItem": {
+      "message": "Mostrar diretório padrão"
+   },
+   "showFileList": {
+      "message": "Lista de arquivos"
+   },
+   "showFreeSpace": {
+      "message": "Indique o número de espaço disponível em disco"
+   },
+   "showNotificationOnDownloadCompleate": {
+      "message": "Mostrar notificar quando concluir o download"
+   },
+   "showSpeedGraph": {
+      "message": "Mostrar gráfico de velocidade"
+   },
+   "sizeList": {
+      "message": "[\"B\", \"kB\", \"MB\", \"GB\", \"TB\", \"PB\", \"EB\"]"
+   },
+   "sizePsList": {
+      "message": "[\"B/s\", \"kB/s\", \"MB/s\", \"GB/s\", \"TB/s\", \"PB/s\", \"EB/s\"]"
+   },
+   "startNow": {
+      "message": "Start now"
+   },
+   "subPath": {
+      "message": "Sub-path"
+   },
+   "timeOutList": {
+      "message": "[\"w\", \"d\", \"h\", \"m\", \"s\"]"
+   },
+   "toRestore": {
+      "message": "Restaurar"
+   },
+   "torrentAdded": {
+      "message": "Torrente foi adicionada!"
+   },
+   "torrentFileExists": {
+      "message": "Provavelmente, o arquivo torrent já existe!"
+   },
+   "torrentFileIsExists": {
+      "message": "Torrent was added before"
+   },
+   "treeViewContextMenu": {
+      "message": "Árvore menu de contexto vista"
+   },
+   "unexpectedError": {
+      "message": "Unexpected error!"
+   },
+   "up": {
+      "message": "Subir",
+      "modifed": 1,
+      "originalKey": "ML_QUEUEUP"
+   },
+   "update": {
+      "message": "Atualizar Feed",
+      "modifed": 1,
+      "originalKey": "DLG_RSSDOWNLOADER_22"
+   },
+   "useSSL": {
+      "message": "Use SSL"
+   }
+}
