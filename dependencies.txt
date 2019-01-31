@@ -1,0 +1,6 @@
+i3
+neovim
+polybar
+rofi
+feh
+ttf-material-design-icons-git
