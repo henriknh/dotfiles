@@ -83,3 +83,6 @@ endfunction
 
 "PLUGIN - vim-ripgrep
 let g:rg_highlight = 1
+
+"PLUGIN - CtrlP
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
