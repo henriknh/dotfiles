@@ -80,3 +80,6 @@ function! NERDCommenter_after()
     let g:ft = ''
   endif
 endfunction
+
+"PLUGIN - vim-ripgrep
+let g:rg_highlight = 1

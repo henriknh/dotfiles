@@ -4,3 +4,4 @@ polybar
 rofi
 feh
 ttf-material-design-icons-git
+ripgrep
