@@ -1,4 +1,9 @@
+" Reload config: :so %
+" Install packages: :PlugUpdate / :PlugInstall
+" Remove packages: :PlugClean
+
 set nocompatible
+syntax enable
 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -10,31 +15,35 @@ call plug#begin()
 
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
-Plug 'posva/vim-vue'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'w0rp/ale'
-Plug 'lervag/vimtex'
 Plug 'jremmen/vim-ripgrep'
-Plug 'scrooloose/syntastic'
-Plug 'nvie/vim-flake8'
-Plug 'valloric/youcompleteme'
-
-"Plug 'drewtempelmeyer/palenight.vim'
 Plug 'junegunn/seoul256.vim'
 
 call plug#end()
 
+" GLOBAL SETTINGS
 :set tabstop=2 shiftwidth=2 expandtab
 :set nu "line numbers
 :set ma
 :set clipboard+=unnamedplus
+" NOT SURE - remove?
+"let python_highlight_all=1
+"syntax on
 
-"ale
+" PLUGIN THEME - SEOUL256
+colo seoul256
+set background=dark
+
+"PLUGIN - ale
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'javascript': ['prettier'],
-\   'vue': ['prettier'],
+\    'typescript': ['prettier'],
+\    'vue': ['prettier'],
+\    'scss': ['prettier'],
+\    'html': ['prettier']
 \}
 let g:ale_sign_error = '❌'
 let g:ale_sign_warning = '⚠️'
@@ -43,18 +52,10 @@ let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_enter = 0
 let g:ale_linter_aliases = {'vue': ['vue', 'javascript']}
 
-colo seoul256
 
-"https://github.com/lervag/vimtex/wiki/introduction#neovim
-let g:vimtex_compiler_progname = 'nvr'
-let g:vimtex_view_method = 'general'
-let g:vimtex_view_general_viewer = 'zathura'
-
-let python_highlight_all=1
-syntax on
-
-"NERDTree
+"PLUGIN - NERDTree
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+"autocmd VimEnter * NERDTree " Auto open panel
 
 " Fix syntax highlighting for vue files
 autocmd FileType vue syntax sync fromstart

@@ -71,9 +71,9 @@ f emacs users: -*- shell-script -*-
 ##################################
 "amixer -q set Master toggle"
   XF86AudioMute
-"amixer -q sset Master 10%-"
+"amixer -q sset Master 5%-"
   XF86AudioLowerVolume
-"amixer -q sset Master 10%+"
+"amixer -q sset Master 5%+"
   XF86AudioRaiseVolume
 "amixer -q set Capture toggle"
   XF86AudioMicMute
