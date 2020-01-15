@@ -9,3 +9,4 @@ ttf-unifont
 siji-git
 xbindkeys
 betterlockscreen
+xterm
