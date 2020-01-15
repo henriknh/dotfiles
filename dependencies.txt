@@ -10,3 +10,4 @@ siji-git
 xbindkeys
 betterlockscreen
 xterm
+yarn
