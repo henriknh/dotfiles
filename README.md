@@ -1,8 +1,8 @@
 # dotfiles
 
-## Dependencies
- * rofi
- * otf-font-awesome-4
+## Installation
+1. Install dependencies in `dependencies.txt`
+2. Make scripts executable with `chmod +x <filename>`
  
 ## Screenshots
 
