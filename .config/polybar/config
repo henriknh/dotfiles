@@ -60,7 +60,7 @@ font-3 = siji:pixelsize=10;1
 
 modules-left = bspwm i3
 modules-center =
-modules-right = cpu memory vpn wlan eth pulseaudio battery xbacklight date powermenu
+modules-right = cpu memory vpn wlan eth pulseaudio battery xbacklight date
 
 tray-position = right
 tray-padding = 2
