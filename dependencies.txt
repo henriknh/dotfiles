@@ -8,6 +8,6 @@ ripgrep
 ttf-unifont
 siji-git
 xbindkeys
-betterlockscreen
 xterm
 yarn
+hsetroot

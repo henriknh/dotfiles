@@ -1,0 +1,16 @@
+i3lock \
+  -c 222222 \
+  --insidevercolor=222222ff \
+  --insidewrongcolor=222222ff \
+  --insidecolor=222222ff \
+  --ringvercolor=d8af5fff \
+  --ringwrongcolor=d75f87ff \
+  --ringcolor=d0d0d0ff \
+  --linecolor=add4fb00 \
+  --keyhlcolor=6fa3d6ff \
+  --separatorcolor=222222ff \
+  --verifcolor=222222ff \
+  --wrongcolor=222222ff \
+  --layoutcolor=222222ff \
+  --radius 90 \
+  --ring-width 5 \

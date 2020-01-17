@@ -44,7 +44,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec rofi -show combi
 
 # Lock
-bindsym $mod+Ctrl+l exec betterlockscreen -l
+bindsym $mod+Ctrl+l exec $HOME/.config/i3lock/lock.sh
 
 # change focus
 bindsym $mod+h focus left
@@ -174,8 +174,8 @@ bindsym $mod+r mode "resize"
 # }
 
 for_window [class="^.*"] border pixel 0
-gaps inner 10
-gaps outer -10
+gaps inner 2
+gaps outer -2
 
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh &
@@ -184,7 +184,8 @@ exec_always --no-startup-id xbindkeys -p &
 # exec_always --no-startup-id compton -b &
 # exec_always --no-startup-id udiskie &
 # exec_always --no-startup-id xautolock -time 10 -locker i3lock-fancy -detectsleep &
-exec_always --no-startup-id $HOME/.config/wallpaper/wallpaper.sh
+#exec_always --no-startup-id $HOME/.config/wallpaper/wallpaper.sh
+exec_always --no-startup-id hsetroot -solid "#3a3a3a"
 
 title_align left
 
