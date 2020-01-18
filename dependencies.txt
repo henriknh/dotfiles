@@ -11,3 +11,4 @@ xbindkeys
 xterm
 yarn
 hsetroot
+bash-completion
