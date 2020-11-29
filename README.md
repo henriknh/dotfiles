@@ -1,7 +1,7 @@
 # dotfiles
 
 ## Installation
-1. Install dependencies in `dependencies.txt` with `yay -S $(cat dependendies.txt)`
+1. Install dependencies in `dependencies.txt` with `yay -S $(cat dependencies.txt)`
 2. Make scripts executable with `chmod +x <filename>`
  
 ## Screenshots
