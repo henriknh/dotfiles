@@ -173,9 +173,12 @@ bindsym $mod+r mode "resize"
 #         status_command i3status
 # }
 
+# Remove border and title
 for_window [class="^.*"] border pixel 0
-gaps inner 2
-gaps outer -2
+
+# Install i3-gaps if you want gap between windows
+#gaps inner 2
+#gaps outer -2
 
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh &
