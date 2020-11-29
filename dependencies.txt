@@ -12,4 +12,4 @@ xterm
 yarn
 hsetroot
 bash-completion
-xorg-xbacklight
+xorg-apps
