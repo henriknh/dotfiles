@@ -5,7 +5,6 @@ rofi
 feh
 ttf-material-design-icons-git
 ripgrep
-ttf-unifont
 siji-git
 xbindkeys
 xterm
