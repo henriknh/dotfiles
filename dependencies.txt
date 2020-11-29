@@ -13,3 +13,4 @@ hsetroot
 bash-completion
 xorg-apps
 qutebrowser
+htop
